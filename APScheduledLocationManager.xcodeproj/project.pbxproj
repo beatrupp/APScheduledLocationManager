@@ -231,7 +231,7 @@
 					FA0631C81DC2A8640072CC97 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 65H57KS853;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					FA0631D11DC2A8640072CC97 = {
@@ -242,6 +242,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 65H57KS853;
 						ProvisioningStyle = Manual;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -475,7 +476,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -496,7 +498,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apscheduledlocationmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -537,7 +540,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4bf2a28-0cc5-4daf-a214-c7e7a326a5ce";
 				PROVISIONING_PROFILE_SPECIFIER = "My Wildcard";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -555,7 +559,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f28e3991-d6c0-45d4-ab1f-ded7a8968011";
 				PROVISIONING_PROFILE_SPECIFIER = "Scheduled Location Ad Hoc";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
